@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Projeto Final - Drum Website</title>
+</head>
+<body>
+ 
+    <h1 id="title">🥁🎶Drum Project 🎶🥁</h1>
+
+    <div class="set">
+        <button class="drum" data-key="65">A</button>
+        <button class="drum" data-key="83">S</button>
+        <button class="drum" data-key="68">D</button>
+        <button class="drum" data-key="74">J</button>
+        <button class="drum" data-key="75">K</button>
+        <button class="drum" data-key="76">L</button>
+    </div>
+
+    <audio data-key="65" src="./Assets/sounds/leftCrash.mp3"></audio>
+    <audio data-key="83" src="./Assets/sounds/tom1.mp3"></audio>
+    <audio data-key="68" src="./Assets/sounds/snare.mp3"></audio>
+    <audio data-key="74" src="./Assets/sounds/tom3.mp3"></audio>
+    <audio data-key="75" src="./Assets/sounds/tom2.mp3"></audio>
+    <audio data-key="76" src="./Assets/sounds/kickbass.mp3"></audio>
+
+    <script src="./index.js"></script>
+</body>
+<footer>
+    <p>Developer by Lucas Reis</p>
+    <p>© All Rigths Reserved. </p>
+</footer>
+</html>
